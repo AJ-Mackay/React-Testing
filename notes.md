@@ -6,3 +6,4 @@
 * Structure of Tests
 * Intro to Query Methods
 * Priority
+* Using Query Methods
