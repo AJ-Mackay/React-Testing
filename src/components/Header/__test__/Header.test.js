@@ -9,32 +9,32 @@ it('should render same text passed into title prop', () => {
   expect(headingElement).toBeInTheDocument();
 });
 
-// it('should detect a header', () => {
+// // it('should detect a header', () => {
+// //     render(<Header title="Cats" />);
+// //     const headingElement = screen.getByRole("heading");
+// //     expect(headingElement).toBeInTheDocument();
+// // });
+
+// // FIND BY
+
+// it('should find the header (async)', async () => {
 //     render(<Header title="Cats" />);
-//     const headingElement = screen.getByRole("heading");
+//     const headingElement = await screen.findByText(/cats/i);
 //     expect(headingElement).toBeInTheDocument();
 // });
 
-// FIND BY
+// // QUERY BY
 
-it('should find the header (async)', async () => {
-    render(<Header title="Cats" />);
-    const headingElement = await screen.findByText(/cats/i);
-    expect(headingElement).toBeInTheDocument();
-});
+// it('should query the header', () => {
+//     render(<Header title="Cats" />);
+//     const headingElement = screen.queryByText(/dogs/i);
+//     expect(headingElement).not.toBeInTheDocument();
+// });
 
-// QUERY BY
+// // GET ALL BY
 
-it('should query the header', () => {
-    render(<Header title="Cats" />);
-    const headingElement = screen.queryByText(/dogs/i);
-    expect(headingElement).not.toBeInTheDocument();
-});
-
-// GET ALL BY
-
-it('should detect the headers', () => {
-    render(<Header title="My Header" />);
-    const headingElements = screen.getAllByRole("heading");
-    expect(headingElements.length).toBe(2);
-});
+// it('should detect the headers', () => {
+//     render(<Header title="My Header" />);
+//     const headingElements = screen.getAllByRole("heading");
+//     expect(headingElements.length).toBe(2);
+// });

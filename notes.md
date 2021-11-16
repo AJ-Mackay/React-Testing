@@ -7,3 +7,4 @@
 * Intro to Query Methods
 * Priority
 * Using Query Methods
+* Assertions
