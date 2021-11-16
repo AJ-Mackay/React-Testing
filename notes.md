@@ -11,3 +11,4 @@
 * Describe Block
 * Fire Events
 * Integration Tests
+* Finding Async Elements with FindBy
