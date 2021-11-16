@@ -9,3 +9,4 @@
 * Using Query Methods
 * Assertions
 * Describe Block
+* Fire Events
