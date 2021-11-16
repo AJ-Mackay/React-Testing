@@ -10,3 +10,4 @@
 * Assertions
 * Describe Block
 * Fire Events
+* Integration Tests
