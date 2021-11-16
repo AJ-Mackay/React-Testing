@@ -5,3 +5,4 @@
 * Types of Test
 * Structure of Tests
 * Intro to Query Methods
+* Priority
